@@ -27,6 +27,7 @@ void print_subsequences(int idx, vector<int> &arr, vector<int> &subsequence, int
 int main(){
     vector<int> test = {1,2,3};
     vector<int> sub;
+    // time complexity 2^n * n(printing array)
     print_subsequences(0, test, sub, test.size());
     return 0;
 }
