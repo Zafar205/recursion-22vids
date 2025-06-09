@@ -14,6 +14,7 @@ bool at_least_one_subsequence(int idx, vector<int> &arr, vector<int> &sub, int s
     
     sub.push_back(arr[idx]);
     sum += arr[idx];
+    
 
     if(at_least_one_subsequence(idx+1, arr, sub, size, sum, k)) return true;
 
