@@ -27,7 +27,6 @@ bool at_least_one_subsequence(int idx, vector<int> &arr, vector<int> &sub, int s
 int main(){
     vector<int> test = {1,2,3};
     vector<int> sub;
-    // time complexity 2^n * n(printing array)
     at_least_one_subsequence(0, test, sub, test.size(), 0, 3);
     return 0;
 }
