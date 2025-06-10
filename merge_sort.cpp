@@ -15,6 +15,7 @@ void mergeSort(vector<int>& arr) {
     mergeSort(right);
 
     arr.clear();
+    
     int i = 0, j = 0;
     while(i < left.size() && j < right.size()) {
         if(left[i] < right[j]) arr.push_back(left[i++]);
